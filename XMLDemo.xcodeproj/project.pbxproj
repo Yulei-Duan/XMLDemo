@@ -19,6 +19,12 @@
 		DB851D3E1904FD5A001641B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB851D261904FD59001641B9 /* UIKit.framework */; };
 		DB851D461904FD5A001641B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB851D441904FD5A001641B9 /* InfoPlist.strings */; };
 		DB851D481904FD5A001641B9 /* XMLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB851D471904FD5A001641B9 /* XMLDemoTests.m */; };
+		DB851D531904FD7C001641B9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB851D521904FD7C001641B9 /* RootViewController.m */; };
+		DB851D581904FFA7001641B9 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DB851D561904FFA7001641B9 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBD0B4CD19054917002F769C /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0B4CC19054917002F769C /* DataBase.m */; };
+		DBD0B4D319055CC7002F769C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0B4D119055CC7002F769C /* MyTableViewCell.m */; };
+		DBD0B4D419055CC7002F769C /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD0B4D219055CC7002F769C /* MyTableViewCell.xib */; };
+		DBD0B4DB190564E0002F769C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD0B4DA190564E0002F769C /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,17 @@
 		DB851D431904FD5A001641B9 /* XMLDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DB851D451904FD5A001641B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB851D471904FD5A001641B9 /* XMLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLDemoTests.m; sourceTree = "<group>"; };
+		DB851D511904FD7C001641B9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DB851D521904FD7C001641B9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DB851D551904FFA7001641B9 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		DB851D561904FFA7001641B9 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		DB851D571904FFA7001641B9 /* xpath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xpath.h; sourceTree = "<group>"; };
+		DBD0B4CB19054917002F769C /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		DBD0B4CC19054917002F769C /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		DBD0B4D019055CC7002F769C /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		DBD0B4D119055CC7002F769C /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		DBD0B4D219055CC7002F769C /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		DBD0B4DA190564E0002F769C /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +124,17 @@
 		DB851D281904FD59001641B9 /* XMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB851D541904FFA7001641B9 /* gdata+xpath */,
 				DB851D311904FD59001641B9 /* AppDelegate.h */,
 				DB851D321904FD59001641B9 /* AppDelegate.m */,
+				DBD0B4CB19054917002F769C /* DataBase.h */,
+				DBD0B4CC19054917002F769C /* DataBase.m */,
+				DB851D511904FD7C001641B9 /* RootViewController.h */,
+				DB851D521904FD7C001641B9 /* RootViewController.m */,
+				DBD0B4DA190564E0002F769C /* RootViewController.xib */,
+				DBD0B4D019055CC7002F769C /* MyTableViewCell.h */,
+				DBD0B4D119055CC7002F769C /* MyTableViewCell.m */,
+				DBD0B4D219055CC7002F769C /* MyTableViewCell.xib */,
 				DB851D341904FD59001641B9 /* Images.xcassets */,
 				DB851D291904FD59001641B9 /* Supporting Files */,
 			);
@@ -142,6 +168,16 @@
 				DB851D441904FD5A001641B9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB851D541904FFA7001641B9 /* gdata+xpath */ = {
+			isa = PBXGroup;
+			children = (
+				DB851D551904FFA7001641B9 /* GDataXMLNode.h */,
+				DB851D561904FFA7001641B9 /* GDataXMLNode.m */,
+				DB851D571904FFA7001641B9 /* xpath.h */,
+			);
+			path = "gdata+xpath";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB851D2D1904FD59001641B9 /* InfoPlist.strings in Resources */,
+				DBD0B4D419055CC7002F769C /* MyTableViewCell.xib in Resources */,
+				DBD0B4DB190564E0002F769C /* RootViewController.xib in Resources */,
 				DB851D351904FD59001641B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB851D331904FD59001641B9 /* AppDelegate.m in Sources */,
+				DBD0B4CD19054917002F769C /* DataBase.m in Sources */,
+				DB851D581904FFA7001641B9 /* GDataXMLNode.m in Sources */,
+				DBD0B4D319055CC7002F769C /* MyTableViewCell.m in Sources */,
 				DB851D2F1904FD59001641B9 /* main.m in Sources */,
+				DB851D531904FD7C001641B9 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +401,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLDemo/XMLDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "XMLDemo/XMLDemo-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,7 +420,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLDemo/XMLDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "XMLDemo/XMLDemo-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +491,7 @@
 				DB851D4D1904FD5A001641B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB851D4E1904FD5A001641B9 /* Build configuration list for PBXNativeTarget "XMLDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +500,7 @@
 				DB851D501904FD5A001641B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
