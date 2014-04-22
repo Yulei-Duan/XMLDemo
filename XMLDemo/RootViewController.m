@@ -85,7 +85,6 @@
         NSString *dateStr = mydata;
         NSDateFormatter *dateFormatter2 = [[NSDateFormatter alloc] init];
         dateFormatter2.dateFormat = @"EEE, dd MMM yyyy HH:mm:ss z";
-        //@"yyyy/MM/dd HH:mm";
         NSDate *newdate = [dateFormatter2 dateFromString:dateStr];
         
         
